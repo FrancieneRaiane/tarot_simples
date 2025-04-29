@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Tarô - Tiragem Aleatória</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #fffaf0;
+      text-align: center;
+    }
+    #cartas {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+      gap: 20px;
+    }
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+      background-color: #fdfdfd;
+      width: 180px;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.5s;
+    }
+    .card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    .card-title {
+      font-weight: bold;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+    .card-info {
+      text-align: left;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+    .embaralhando {
+      font-size: 20px;
+      margin-top: 20px;
+      animation: piscar 1s infinite;
+    }
+    @keyframes piscar {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    select, button {
+      padding: 10px;
+      margin: 10px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Tarô - Tiragem Aleatória</h1>
+
+  <div>
+    <label for="modo">Escolha o modo:</label>
+    <select id="modo">
+      <option value="normal">Tiragem Normal</option>
+      <option value="cruz">Tiragem Cruz Céltica</option>
+    </select>
+
+    <label for="quantidade">Quantidade de cartas:</label>
+    <select id="quantidade">
+      <option value="1">1 carta</option>
+      <option value="3">3 cartas</option>
+      <option value="5" selected>5 cartas</option>
+      <option value="7">7 cartas</option>
+    </select>
+
+    <button onclick="buscarCartas()">Tirar Cartas</button>
+  </div>
+
+  <div id="embaralhando" class="embaralhando" style="display:none;">Embaralhando...</div>
+
+  <div id="cartas"></div>
+
+  <script>
+    const arcanosMaiores = [
+      { name: "The Fool", pt: "O Louco", img: "ar00.jpg", 
+        meaning_up: "Novos começos, otimismo, liberdade.", 
+        meaning_rev: "Imprudência, negligência, falta de planejamento.", 
+        desc: "O Louco representa o início de uma jornada, um salto de fé." },
+      { name: "The Magician", pt: "O Mago", img: "ar01.jpg", 
+        meaning_up: "Poder, habilidade, ação.", 
+        meaning_rev: "Manipulação, truque.", 
+        desc: "O Mago é a manifestação da vontade para mudar o mundo." },
+      { name: "The High Priestess", pt: "A Sacerdotisa", img: "ar02.jpg", 
+        meaning_up: "Intuição, mistério, sabedoria.", 
+        meaning_rev: "Segredos, desconexão da intuição.", 
+        desc: "A Sacerdotisa guarda os mistérios do inconsciente." },
+      // (Você pode seguir adicionando os 22 Arcanos como já fizemos)
+      { name: "The World", pt: "O Mundo", img: "ar21.jpg", 
+        meaning_up: "Conclusão, sucesso, realização.", 
+        meaning_rev: "Estagnação, incompletude.", 
+        desc: "O Mundo celebra o fim de uma jornada e o sucesso pleno." }
+    ];
+
+    function buscarCartas() {
+      const modo = document.getElementById('modo').value;
+      const quantidade = parseInt(document.getElementById('quantidade').value);
+      const cartasContainer = document.getElementById('cartas');
+      const embaralhandoTexto = document.getElementById('embaralhando');
+
+      cartasContainer.innerHTML = '';
+      embaralhandoTexto.style.display = 'block';
+
+      setTimeout(() => {
+        embaralhandoTexto.style.display = 'none';
+
+        let embaralhado = [...arcanosMaiores].sort(() => 0.5 - Math.random());
+        let selecionadas = [];
+
+        if (modo === 'normal') {
+          selecionadas = embaralhado.slice(0, quantidade);
+        } else if (modo === 'cruz') {
+          selecionadas = embaralhado.slice(0, 10);
+        }
+
+        selecionadas.forEach((carta, index) => {
+          const imagemUrl = `https://www.sacred-texts.com/tarot/pkt/img/${carta.img}`;
+
+          const div = document.createElement('div');
+          div.className = 'card';
+          div.innerHTML = `
+            <img src="${imagemUrl}" alt="${carta.pt}">
+            <div class="card-title">${modo === 'cruz' ? `Carta ${index+1}` : carta.pt}</div>
+            <div class="card-info">
+              <strong>Significado (normal):</strong> ${carta.meaning_up}<br>
+              <strong>Significado (invertido):</strong> ${carta.meaning_rev}<br>
+              <em>${carta.desc}</em>
+            </div>
+          `;
+          cartasContainer.appendChild(div);
+        });
+      }, 1500);
+    }
+  </script>
+
+</body>
+</html>
