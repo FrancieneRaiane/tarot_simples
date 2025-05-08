@@ -11,6 +11,20 @@ body {
     font-size: 48px;
     margin-bottom: 10px;
   }
+  .tarot-central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .tarot-central img {
+    width: 300px; /* Ajuste conforme necessário */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
   
 #cartas {
   display: flex;
@@ -59,4 +73,26 @@ select, button {
   margin: 10px;
   font-size: 16px;
 }
-
+select {
+    background-color: #e6d6ff; /* cor lilás clara */
+    border: 1px solid #a678f0;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    color: #2e003e;
+    font-weight: bold;
+  }
+  button {
+    background-color: #a678f0;
+    color:black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  button:hover {
+    background-color: #8a5ec2;
+  }
+    
