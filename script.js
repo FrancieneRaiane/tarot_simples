@@ -286,7 +286,7 @@ const arcanosMenores = [
     img: "img_menores/p13.jpg",
     meaning_up: " Compassivos, atenciosos, emocionalmente estáveis, intuitivos, em fluxo.",
     meaning_rev: "Sentimentos internos, autocuidado, amor-próprio, codependência.",
-    desc: "A Rainha de Copas simboliza uma mulher sensível, intuitiva e emocionalmente profunda. Sentada em um trono à beira-mar, cercada por símbolos do inconsciente como água e peixes, ela segura uma taça fechada, representando sentimentos vindos do subconsciente. Apesar de estar conectada às emoções, ela não se deixa dominar por elas, demonstrando equilíbrio, empatia e compreensão interior.",
+    desc: "A Rainha de Copas representa sensibilidade, intuição e equilíbrio emocional. Ela é uma mulher profunda e empática, conectada ao seu subconsciente, mas capaz de controlar suas emoções com sabedoria e compreensão interior.",
 },
 {
     name: "King of Wands",
@@ -524,8 +524,6 @@ const arcanosMenores = [
   desc:"O Rei de Ouros simboliza estabilidade, poder e maestria na criação e manutenção de riqueza. Ele é um líder disciplinado, capaz de acumular e sustentar abundância financeira ao longo do tempo, valorizando a segurança material e o sucesso conquistado com esforço e determinação."
 },
 ]
-
-
 
  function buscarCartas() {
    const modo = document.getElementById('modo').value;
