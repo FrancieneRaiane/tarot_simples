@@ -412,39 +412,39 @@ const arcanosMenores = [
 
 /// aqui começa o de ouros - Pentacles
 {
-  name: "",
+  name: "Ace of Pentacles",
   pt: "Às de Ouros",
   img: "img_menores/o01.jpg",
-  meaning_up: "",
-  meaning_rev: "",
-  desc:""
+  meaning_up: "Uma nova oportunidade financeira ou de carreira, manifestação, abundância",
+  meaning_rev: "Oportunidade perdida, falta de planejamento e previsão",
+  desc:"Ás de Ouros é símbolo de uma nova oportunidade, especialmente ligada à riqueza, negócios e realização. Representado por uma mão que surge das nuvens oferecendo uma moeda, ele indica que algo valioso está sendo oferecido e cabe a você aproveitá-lo. A paisagem fértil e o caminho que leva às montanhas sugerem crescimento, prosperidade e a necessidade de esforço para alcançar o sucesso. A carta incentiva a agir com determinação para transformar a chance recebida em algo duradouro."
 },
 {
-  name: "",
+  name: "Two of Pentacles",
   pt: "Dois de Ouros",
   img: "img_menores/o02.jpg",
-  meaning_up: "",
-  meaning_rev: "",
-  desc:""
+  meaning_up: "Múltiplas prioridades, gerenciamento de tempo, priorização, adaptabilidade.",
+  meaning_rev: "Comprometimento excessivo, desorganização, repriorização.",
+  desc:"O Dois de Ouros mostra um jovem fazendo malabarismo com duas moedas, simbolizando equilíbrio e habilidade para lidar com várias tarefas. O símbolo do infinito indica que, com boa gestão de tempo e energia, ele pode enfrentar desafios contínuos. Os navios no mar agitado ao fundo reforçam que, apesar dos altos e baixos da vida, tudo pode ser controlado com foco."
 },
 {
-  name: "",
+  name: "Three of Pentacles",
   pt: "Três de ouros",
   img: "img_menores/o03.jpg",
-  meaning_up: "",
-  meaning_rev: "",
-  desc:""
+  meaning_up: "Trabalho em equipe, colaboração, aprendizado, implementação.",
+  meaning_rev: "Desarmonia, desalinhamento, trabalhar sozinho.",
+  desc:"O Três de Ouros mostra um pedreiro trabalhando em uma catedral e conversando com dois arquitetos. Apesar de menos experiente, sua habilidade é valorizada, e ele é visto como parte essencial do projeto. A cena destaca a importância da colaboração, do trabalho em equipe e do reconhecimento das contribuições de cada um."
 },
 {
-  name: "",
+  name: "Four of Pentacles",
   pt: "Quatro de Ouros",
   img: "img_menores/o04.jpg",
-  meaning_up: "",
-  meaning_rev: "",
-  desc:""
+  meaning_up: "Economia de dinheiro, segurança, conservadorismo, escassez, controle.",
+  meaning_rev: "Gastos excessivos, ganância, autoproteção.",
+  desc:"O Quatro de Ouros retrata um homem agarrado ao dinheiro com tanto apego que se isola e se torna incapaz de crescer ou se conectar com os outros. Sua obsessão pela riqueza o mantém preso, sozinho e estagnado."
 },
 {
-  name: "",
+  name: "Five of Pentacles",
   pt: "Cinco de Ouros",
   img: "img_menores/o05.jpg",
   meaning_up: "",
@@ -452,7 +452,7 @@ const arcanosMenores = [
   desc:""
 },
 {
-  name: "",
+  name: "Six of Pentacles",
   pt: "Seis de Ouros",
   img: "img_menores/o06.jpg",
   meaning_up: "",
@@ -460,7 +460,7 @@ const arcanosMenores = [
   desc:""
 },
 {
-  name: "",
+  name: "Seven of Pentacles",
   pt: "Sete de Ouros",
   img: "img_menores/o07.jpg",
   meaning_up: "",
@@ -468,7 +468,7 @@ const arcanosMenores = [
   desc:""
 },
 {
-  name: "",
+  name: "Eight of Pentacles",
   pt: "Oito de Ouros",
   img: "img_menores/o08.jpg",
   meaning_up: "",
@@ -476,7 +476,7 @@ const arcanosMenores = [
   desc:""
 },
 {
-  name: "",
+  name: "Nine of Pentacles",
   pt: "Nove de Ouros",
   img: "img_menores/o09.jpg",
   meaning_up: "",
@@ -484,7 +484,7 @@ const arcanosMenores = [
   desc:""
 },
 {
-  name: "",
+  name: "Ten of Pentacles",
   pt: "Dez de Ouros",
   img: "img_menores/o10.jpg",
   meaning_up: "",
@@ -492,23 +492,23 @@ const arcanosMenores = [
   desc:""
 },
 {
-  name: "",
-  pt: "",
+  name: "Page of Pentacles",
+  pt: "Pajem de Ouros",
   img: "img_menores/o11.jpg",
   meaning_up: "",
   meaning_rev: "",
   desc:""
 },
 {
-  name: "",
-  pt: "",
+  name: "Knignt of Pentacles",
+  pt: "Cavaleiro de Ouros",
   img: "img_menores/o12.jpg",
   meaning_up: "",
   meaning_rev: "",
   desc:""
 },
 {
-  name: "",
+  name: "Queen of Pentacles",
   pt: "Rainha de Ouros",
   img: "img_menores/o13.jpg",
   meaning_up: "",
@@ -516,7 +516,7 @@ const arcanosMenores = [
   desc:""
 },
 {
-  name: "",
+  name: "King of Pentacles",
   pt: "Rei de Ouros",
   img: "img_menores/o14.jpg",
   meaning_up: "",
