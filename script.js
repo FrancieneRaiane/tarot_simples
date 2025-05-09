@@ -447,81 +447,81 @@ const arcanosMenores = [
   name: "Five of Pentacles",
   pt: "Cinco de Ouros",
   img: "img_menores/o05.jpg",
-  meaning_up: "",
-  meaning_rev: "",
-  desc:""
+  meaning_up: "Perda financeira, pobreza, falta de mentalidade, isolamento, preocupação.",
+  meaning_rev: "Recuperação de perdas financeiras, pobreza espiritual.",
+  desc:"Cinco de Ouros é a representação de duas pessoas em situação de pobreza e sofrimento, caminhando no frio sem perceber uma igreja acolhedora e iluminada ao fundo — símbolo de esperança e apoio. Presas à sua dor, elas não enxergam a ajuda disponível."
 },
 {
   name: "Six of Pentacles",
   pt: "Seis de Ouros",
   img: "img_menores/o06.jpg",
-  meaning_up: "",
-  meaning_rev: "",
-  desc:""
+  meaning_up: "Dar, receber, compartilhar riqueza, generosidade, caridade.",
+  meaning_rev: "Autocuidado, dívidas não pagas, caridade unilateral.",
+  desc:"Seis de Ouros descreve a carta como símbolo de generosidade, justiça e equilíbrio entre dar e receber. Ela lembra que a vida é um ciclo, onde ora ajudamos, ora precisamos de ajuda, e que a generosidade de hoje pode se tornar o apoio necessário no futuro."
 },
 {
   name: "Seven of Pentacles",
   pt: "Sete de Ouros",
   img: "img_menores/o07.jpg",
-  meaning_up: "",
-  meaning_rev: "",
-  desc:""
+  meaning_up: "Visão de longo prazo, resultados sustentáveis, perseverança, investimento.",
+  meaning_rev: "Falta de visão de longo prazo, sucesso ou recompensa limitados.",
+  desc:"O Sete de Ouros retrata um homem que, após muito esforço, contempla os frutos do seu trabalho com satisfação, mas também com cansaço. A carta destaca a importância da dedicação e paciência, ao mesmo tempo em que alerta para o risco de esgotamento por excesso de esforço."
 },
 {
   name: "Eight of Pentacles",
   pt: "Oito de Ouros",
   img: "img_menores/o08.jpg",
-  meaning_up: "",
-  meaning_rev: "",
-  desc:""
+  meaning_up: "Aprendizagem, tarefas repetitivas, maestria, desenvolvimento de habilidades.",
+  meaning_rev: "Autodesenvolvimento, perfeccionismo, atividade mal direcionada.",
+  desc:"O Oito de Ouros representa foco, dedicação e aprimoramento. A carta mostra um jovem empenhado em seu trabalho, isolado de distrações, que busca a excelência por meio da prática constante e do aperfeiçoamento de suas habilidades."
 },
 {
   name: "Nine of Pentacles",
   pt: "Nove de Ouros",
   img: "img_menores/o09.jpg",
-  meaning_up: "",
-  meaning_rev: "",
-  desc:""
+  meaning_up: "Abundância, luxo, autossuficiência, independência financeira.",
+  meaning_rev: "utoestima, excesso de investimento em trabalho, correria.",
+  desc:"O Nove de Ouros representa sucesso, independência e abundância conquistados com esforço. A carta mostra uma mulher rica e serena, desfrutando dos frutos do seu trabalho com equilíbrio e autocontrole, simbolizando uma relação saudável com o dinheiro e a realização pessoal."
 },
 {
   name: "Ten of Pentacles",
   pt: "Dez de Ouros",
   img: "img_menores/o10.jpg",
-  meaning_up: "",
-  meaning_rev: "",
-  desc:""
+  meaning_up: "Riqueza, segurança financeira, família, sucesso a longo prazo, contribuição.",
+  meaning_rev: "O lado negro da riqueza, fracasso financeiro ou perda.",
+  desc:"O Dez de Ouros simboliza legado, estabilidade e prosperidade duradoura. A carta retrata um patriarca que, após uma vida de conquistas, compartilha sua riqueza com a família, celebrando não só a segurança financeira, mas também os laços familiares, a tradição e a continuidade geracional."
 },
 {
   name: "Page of Pentacles",
   pt: "Pajem de Ouros",
   img: "img_menores/o11.jpg",
-  meaning_up: "",
-  meaning_rev: "",
-  desc:""
+  meaning_up: " Manifestação, oportunidade financeira, desenvolvimento de habilidades.",
+  meaning_rev: "Falta de progresso, procrastinação, aprender com o fracasso.",
+  desc:"O Valete de Ouros representa potencial, novos começos e dedicação aos objetivos. A carta mostra um jovem contemplando uma moeda, simbolizando seu desejo de aprender, crescer e manifestar prosperidade, apesar dos desafios que ainda precisa enfrentar em sua jornada."
 },
 {
   name: "Knignt of Pentacles",
   pt: "Cavaleiro de Ouros",
   img: "img_menores/o12.jpg",
-  meaning_up: "",
-  meaning_rev: "",
-  desc:""
+  meaning_up: "Trabalho duro, produtividade, rotina, conservadorismo.",
+  meaning_rev: "Autodisciplina, tédio, sensação de preso, perfeccionismo.",
+  desc:"O Cavaleiro de Ouros simboliza esforço constante, paciência e planejamento. A carta retrata alguém determinado a alcançar seus objetivos por meio do trabalho árduo e metódico, valorizando a consistência mais do que a velocidade."
 },
 {
   name: "Queen of Pentacles",
   pt: "Rainha de Ouros",
   img: "img_menores/o13.jpg",
-  meaning_up: "",
-  meaning_rev: "",
-  desc:""
+  meaning_up: "Afetuoso, prático, provedor financeiro, pai/mãe trabalhador(a).",
+  meaning_rev: "Independência financeira, autocuidado, conflito trabalho-casa.",
+  desc:"A Rainha de Ouros representa nutrição, abundância e conexão com a natureza. A carta retrata uma mulher que cuida com carinho de sua prosperidade material, vivendo em harmonia com o mundo natural e simbolizando uma vida fértil, estável e bem-sucedida."
 },
 {
   name: "King of Pentacles",
   pt: "Rei de Ouros",
   img: "img_menores/o14.jpg",
-  meaning_up: "",
-  meaning_rev: "",
-  desc:""
+  meaning_up: "Riqueza, negócios, liderança, segurança, disciplina, abundância.",
+  meaning_rev: "Financeiramente inepto, obcecado por riqueza e status, teimoso.",
+  desc:"O Rei de Ouros simboliza estabilidade, poder e maestria na criação e manutenção de riqueza. Ele é um líder disciplinado, capaz de acumular e sustentar abundância financeira ao longo do tempo, valorizando a segurança material e o sucesso conquistado com esforço e determinação."
 },
 ]
 
